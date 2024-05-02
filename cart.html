@@ -1,0 +1,97 @@
+<html >
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <ul>
+                <li class="logo"><a href="index.html"><img src="images/logo-white.png"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Galary.html">Gallery</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li id="dash"><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+            <ul class="ultwo">
+                <li id="cart"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li id="liLogin"><a href="login.html">login</a></li>
+                <li id="liRegister"><a href="Register.html">Register</a></li>
+                <li id="liLogout"><a href="login.html">LogOut</a></li>
+            </ul>
+        </div>
+       </div>
+    <div class="pageHome">
+        <h1>Welcome To your Cart</h1>
+    </div>
+<div class="container">
+    <div class="cart">
+       <table>
+        <tr class="firstTr">
+            <th class="img">Product</th>
+            <th class="colspan2">Name</th>
+            <th>Price</th>
+            <!-- <th>Quantity</th>
+            <th>Subtotal</th> -->
+            <th></th>
+        </tr>
+        <tbody id="cartbody"></tbody>
+       
+       </table>
+    </div>
+    <div class="container">
+        <div class="checkoutimg"><img src="images/B.jpg" alt="checkout"></div>
+        <div class="checkout">
+            <div class="inputs">
+                
+                
+                <div>
+                    <p>Email</p>
+                    <input type="text" id="to" placeholder="Enter Email">
+                    <p id="emailError"></p>
+                </div>
+                
+                <div>
+                    <p>Visa:</p>
+                    <input type="text"  id="visa" placeholder="Enter visa number">
+                    <p id="visaError"></p>
+                </div>
+                <div>
+                    <p>cvv:</p>
+                    <input type="text" id="cvv"  placeholder="Enter cvv">
+                    <p id="cvvError"></p>
+                </div>
+              
+                
+               
+            </div>
+            <div class="title">Cart totals</div>
+            <div class="subTotal"><span>subTotal : </span> <span id="subtotal"></span></div>
+            <div class="btnCheckout"><input type="button" id="btnCheckout" value="PROCEED TO CHECKOUT"></div>
+        </div>
+    </div>
+    
+    <div class="btnCheckoutAlrt" id="btnCheckoutAlrt">
+        <div class="fsSuc"><i class="fa-regular fa-circle-check fa-beat" style="color: #ffffff;"></i></div>
+        <div class="successMessage">
+            <p>success</p>
+            <input type="button" value="ok" id="ok">
+        </div>
+    </div>
+    <div class="btnCheckoutAlrtwrong" id="btnCheckoutAlrtwrong">
+        <div class="fswrong"><i class="fa-regular fa-circle-xmark fa-beat" style="color: #ffffff;"></i></div>
+        <div class="wrongmessage">
+            <p>complate all data</p>
+            <input type="button" value="ok" id="ok">
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="js/cart.js" ></script>
+</body>
+</html>

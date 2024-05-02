@@ -1,0 +1,91 @@
+.About{
+    height: 80%;
+    background-image: url(../images/slider-1-3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    position: relative;
+}
+.layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.About h1 {
+    position: absolute;
+    top: 45%;
+    left: 50px;
+    color: white;
+    font-size: 80px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.col-6 img{
+    width: 100%;
+}
+.col-6{
+    vertical-align: middle;
+    padding: 20px;
+}
+.col-6 input{
+    margin: 20px 0;
+    padding: 15px 20px;
+    border: none; 
+}
+.clocks{
+
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    
+}
+.clocks h1{
+    color: black;
+    font-size: 70px;
+}
+
+.clocks img{
+    border-radius: 8px;
+    
+}
+
+
+.ourProduct{
+   font-size: 50px;
+   color: white;
+    margin: 20px auto;
+}
+
+
+/* footer----------------------------------------------------- */
+.footer,table{
+    width: 100%;
+}
+.footer{
+    margin-top: 200px;
+    background-color: black;
+    
+}
+table{
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer th{
+    width: 25%;
+}
+.footer ul li{
+    
+    display: block;
+    margin: 20px 0;
+}
+.footer ul li a{
+    color: white;
+}

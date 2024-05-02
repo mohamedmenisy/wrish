@@ -1,0 +1,152 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
+/* padding */
+.pt-10{
+    padding-top: 10px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pl-10{
+    padding-left:10px ;
+}
+.pr-10{
+    padding-right: 10px;
+}
+/* margin */
+.mt-10{
+    margin-top: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.ml-10{
+    margin-left:10px ;
+}
+.mr-10{
+    margin-right: 10px;
+}
+/* display inline-block */
+.d-inline{
+display: inline-block;
+}
+
+
+.navbar{
+    background-color:black ;
+    padding: 10px 0;
+}
+ul{
+    width: 49%;
+    display: inline-block;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    color: white;
+    display: block;
+    margin: 0 10px;
+    font-size: 16px;
+    
+    
+}
+.navbar ul li a i{
+    color: white;
+    display: block;
+    margin: 2px 10px;
+    font-size: 18px;
+    
+} 
+.ultwo{
+    text-align: end;
+}
+.container{
+    width: 95%;
+    margin: 10px auto;
+}
+.container2{
+    width: 95%;
+    margin: 30px auto; 
+}
+/* ------------------------------------------------------ */
+
+.col-4{
+    display: inline-block;
+    width: 32%;
+}
+.col-3{
+    display: inline-block;
+    width: 24%;
+}
+.col-6{
+    display: inline-block;
+    width: 49%;
+}
+.col-2{
+    width: 19%;
+    display: inline-block;
+}
+.text-muted{
+    color: #777;
+}
+.logo img{
+    width: 70px;
+ 
+}
+.logo{
+    margin: 0 30px;
+}
+
+
+/* footer------------------------------ */
+.footer,table{
+    width: 100%;
+}
+.footer{
+    margin-top: 200px;
+    background-color: black;
+    
+}
+.footer table{
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer th{
+    width: 25%;
+}
+.footer ul li{
+    
+    display: block;
+    margin: 20px 0;
+}
+.footer ul li a{
+    color: white;
+}
+.hr{
+    background-color: #f8f8f8;
+    
+    width: 100%;
+    height: 2px;
+}
+#dash{
+    display: none;
+}
+#liLogout{
+    display: none;
+}

@@ -1,0 +1,67 @@
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="css/dash.css">
+    <title>Dashboard</title>
+  
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <ul>
+                <li class="logo"><a href="index.html"><img src="images/logo-white.png"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Galary.html">Gallery</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li id="dash"><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+            <ul class="ultwo">
+                <li id="cart"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li id="liLogin"><a href="login.html">login</a></li>
+                <li id="liRegister"><a href="Register.html">Register</a></li>
+                <li id="liLogout"><a href="login.html">LogOut</a></li>
+            </ul>
+        </div>
+       </div>
+  <div class="container text-center">
+    <div class="dashImg col-6">
+        <img src="images/dash.avif" alt="dash">
+    </div>
+    <div class="dashboard col-6">
+        <div class="addimg"><input type="file" id="file" ></div>
+        <div class="addName"><input type="text" id="Pname" placeholder="Name"></div>
+        <div class="addcatg"><input type="text" id="Pcatg" placeholder="Category"></div>
+        <div class="addPrice"><input type="text" id="Pprice" placeholder="Price"></div>
+        <div class="addbutton"><input type="button" id="addButton" value="AddProduct"></div>
+    </div>
+  </div>
+
+
+
+    <div class="container">
+        <div class="cart">
+           <table>
+            <tr class="firstTr">
+                <th class="img">Product</th>
+                <th class="colspan2">Name</th>
+                <th>Price</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tbody id="tbody"></tbody>
+        
+       
+        
+      
+           </table>
+        </div>
+   
+    
+    
+    </div>
+
+
+    <script src="js/dashboard.js"  ></script>
+</body>
+</html>

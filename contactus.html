@@ -1,0 +1,79 @@
+<html >
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <title>Register</title>
+    <script>
+        
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <ul>
+                <li class="logo"><a href="index.html"><img src="images/logo-white.png"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Galary.html">Gallery</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li id="dash"><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+            <ul class="ultwo">
+                <li id="cart"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li id="liLogin"><a href="login.html">login</a></li>
+                <li id="liRegister"><a href="Register.html">Register</a></li>
+                <li id="liLogout"><a href="login.html">LogOut</a></li>
+            </ul>
+        </div>
+       </div>
+
+       <div  class="form">
+        <div class="image">
+            <img src="images/5124556.jpg" alt="">
+        </div>
+        <div class="inputs">
+            <h2>Contact Us</h2>
+            <div>
+                <p>sybject:</p>
+                <input type="text" id="subject" placeholder="Enter subject">
+            </div>
+         
+            <div>
+                <p>Email</p>
+                <input type="text" id="to" placeholder="Enter Email">
+                <p id="emailError"></p>
+            </div>
+         
+            <div>
+                <p>message</p>
+                <textarea  cols="30" id="message" placeholder="Enter message" rows="10" ></textarea>
+            </div>
+            
+            <div >
+                <input type="button" id="submit" value="Send">
+            </div>
+        </div>
+       </div>
+
+       <div class="btnCheckoutAlrt" id="btnCheckoutAlrt">
+        <div class="fsSuc"><i class="fa-regular fa-circle-check fa-beat" style="color: #ffffff;"></i></div>
+        <div class="successMessage">
+            <p>success</p>
+            <input type="button" value="ok" id="ok">
+        </div>
+    </div>
+    <div class="btnCheckoutAlrtwrong" id="btnCheckoutAlrtwrong">
+        <div class="fswrong"><i class="fa-regular fa-circle-xmark fa-beat" style="color: #ffffff;"></i></div>
+        <div class="wrongmessage">
+            <p>complate all data</p>
+            <input type="button" value="ok" id="ok">
+        </div>
+    </div>
+       
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script src="js/contact.js" ></script>
+</body>
+</html>

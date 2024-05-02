@@ -1,0 +1,74 @@
+
+.hellodesc{
+    height: 60vh;
+    position: relative;
+    background-image: url(../images/bacgroung-1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.imgC{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+.imgC img{
+    width: 270px;
+    height: 270px;
+}
+.item{
+    height: 80vh;
+    padding: 20px;
+    margin: 20px 0;
+   
+
+}
+.descTitle{
+    position: absolute;
+    top: 45%;
+    left: 50px;
+}
+.descTitle h2{
+    font-size: 40px;
+    color: white;
+}
+.footer{
+    margin-top: 20px
+}
+.itemimg{
+text-align: center;
+vertical-align: middle;
+display: inline-block;
+width: 60%;
+}
+.itemimg img{
+    width: 70%;
+    height: 100%;
+}
+.itemdesc{
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    width: 35%;
+    margin-left: auto;
+    text-align: start;
+}
+
+.desc{
+    margin: 20px 0;
+}
+.addcart input{
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+
+}
+.addcart input:hover{
+background-color: black;
+}
+

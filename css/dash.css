@@ -1,0 +1,101 @@
+
+.cart{
+width: 100%;
+
+}
+table{
+width: 80%;  
+border: 1px solid #ddd;
+padding: 10px;
+border-collapse: collapse;
+text-align: center;
+
+margin: 20px auto;
+}
+
+tr{
+border-bottom: 1px solid #ddd ;   
+}
+
+.firstTr{
+background-color: #2196f3;
+color: white;
+}
+.colspan2{
+width: 30%;
+}
+tr img{
+vertical-align: middle;
+height: 80px;
+width: 50%;
+border-radius: 6px;
+}
+td:not(:last-child){
+padding: 5px 10px;
+border-right: 1px solid #ddd;
+}
+.img{
+width: 15%;
+
+}
+table i {
+cursor: pointer;
+background-color: #2196f3;
+padding: 10px;
+border-radius: 50%;
+color: white;
+}
+.checkoutimg{
+display: inline-block;
+vertical-align: middle;
+width: 60%;
+
+}
+.checkoutimg img{
+width: 100%;
+}
+
+.checkout{
+display: inline-block;
+width: 39%;
+border: 4px solid #2196f3;
+vertical-align: middle;
+text-align: center;
+border-radius: 2px;
+
+}
+.title,.btnCheckout input{
+background-color: #2196f3;
+font-size: 22px;
+padding: 20px;
+text-align: center;
+color: white;
+
+}
+.btnCheckout input{
+width: 100%;
+border: none;
+
+cursor: pointer;
+}
+
+.dashImg{
+    vertical-align: middle;
+}
+.dashboard{
+    vertical-align: middle;
+}
+.dashboard input{
+    display: block;
+    width: 80%;
+    padding: 20px;
+    margin: 15px 0;
+}
+.dashboard input[type="button"]{
+    background-color: #2196f3;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}

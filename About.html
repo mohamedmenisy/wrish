@@ -1,0 +1,146 @@
+
+<html >
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="css/about.css">
+    <title>About</title>
+    <script>
+        window.addEventListener("load",()=>{
+            let cartPage=document.getElementById("cart")
+let LoginPage=document.getElementById("liLogin")
+let RegisterPage=document.getElementById("liRegister")
+let logOutBtn=document.getElementById("liLogout")
+let dashboard=document.getElementById("dash");
+
+
+
+if (localStorage.getItem("userType")=="admin") {
+dash.style.display="inline-block"
+cartPage.style.display="none"
+LoginPage.style.display="none"
+RegisterPage.style.display="none"
+logOutBtn.style.display="inline-block"
+
+}else if(localStorage.getItem("userType")=="member"){
+    dash.style.display="none"
+    cartPage.style.display="inline-block"
+    LoginPage.style.display="none"
+    RegisterPage.style.display="none"
+    logOutBtn.style.display="inline-block"
+}else{
+    cartPage.style.display="none"
+    dash.style.display="none"
+}
+logOutBtn.addEventListener("click",()=>{
+    localStorage.removeItem("userType")
+    location.assign("login.html")
+})
+             })
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <ul>
+                <li class="logo"><a href="index.html"><img src="images/logo-white.png"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Galary.html">Gallery</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li id="dash"><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+            <ul class="ultwo">
+                <li id="cart"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li id="liLogin"><a href="login.html">login</a></li>
+                <li id="liRegister"><a href="Register.html">Register</a></li>
+                <li id="liLogout"><a href="login.html">LogOut</a></li>
+            </ul>
+        </div>
+       </div>
+       <div class="About">
+        <div class="layer"></div>
+        <h1>AboutUS</h1>
+       </div>
+
+       <div class="container">
+        <div class="col-6 mt-10 ">
+            <h3 class="mb-10">UK PREMIER STORE FOR WRIST WATCHES</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eum, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, pariatur necessitatibus eius illo eveniet expedita temporibus natus nulla, error at ipsam doloribus. Eligendi numquam aut illo? Ab cum impedit omnis nobis doloremque molestias. Nemo, pariatur? Atque ea eaque, laborum vero odio nobis necessitatibus aliquam quam nihil quisquam maxime repudiandae incidunt? autem accusamus expedita minima nesciunt iste. Porro dicta doloremque facere minima non quidem similique fugiat nisi quam, nobis architecto dolorem provident hic optio, rem molestias explicabo numquam? In provident, voluptates placeat beatae maiores cupiditate a ratione repellat, consequatur corporis necessitatibus?</p>
+            <div><input type="button" value="SHOP Now"></div>
+        </div>
+        <div class="col-6 mt-10">
+            <img src="images/1.png" alt="1.png">
+        </div>
+       
+       </div>
+
+       <div class="container clocks">
+       
+        <div class="ourProduct">
+            <h1>Our Products</h1>
+        </div>
+        <div class="col-4">
+            <div><img src="images/1.jpg">
+            
+            </div>
+        </div>
+        <div class="col-4">
+            <div><img src="images/2.jpg"></div>
+        </div>
+        <div class="col-4">
+            <div><img src="images/3.jpg"></div>
+        </div>
+       </div>
+
+
+       <div class="footer">
+
+        <table>
+            <tr>
+                <th>INFORMATION</th>
+                <th>PAGES</th>
+                <th>SERVICES</th>
+                <th>CATEGORIES</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Shipping</li>
+                        <li>Warranty & Authenticity</li>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Galary.html">Gallery</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Sale</li>
+                        <li>Quick Ship</li>
+                        <li>New Designs</li>
+                        <li>Protection Plan</li>
+                        <li>Gift Cards</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Watches</li>
+                        <li>Watch Accessories</li>
+                        <li>Clocks</li>
+                        <li>Jewellery</li>
+                        
+                    </ul>
+                </td>
+            </tr>
+        </table>
+       </div>
+</body>
+</html>

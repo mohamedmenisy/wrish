@@ -1,0 +1,212 @@
+
+.pageHome{
+    height: 50vh;
+    background-image: url(../images/slider.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.pageHome h1{
+    position: absolute;
+    top: 45%;
+    left: 30px;
+    color: white;
+}
+
+.cart{
+    width: 100%;
+  
+    
+}
+table{
+    width: 100%;  
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+tr{
+    border-bottom: 1px solid #ddd ;   
+}
+
+.firstTr{
+    background-color: #2196f3;
+    color: white;
+}
+.colspan2{
+    width: 30%;
+}
+tr img{
+    vertical-align: middle;
+    height: 80px;
+    width: 50%;
+    border-radius: 6px;
+}
+td:not(:last-child){
+    padding: 5px 10px;
+    border-right: 1px solid #ddd;
+}
+.img{
+    width: 15%;
+  
+}
+table i {
+    cursor: pointer;
+    background-color: #2196f3;
+    padding: 10px;
+    border-radius: 50%;
+   color: white;
+}
+.checkoutimg{
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+  
+}
+.checkoutimg img{
+    width: 100%;
+}
+.inputs{
+    padding: 10px 0;
+    padding-left: 20px;
+    text-align: left;
+   
+}
+.inputs input{
+    width: 95%;
+}
+
+.inputs textarea{
+    width: 95%;
+}
+
+
+.checkout{
+    display: inline-block;
+    width: 39%;
+    border: 4px solid #2196f3;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 2px;
+    
+}
+.title,.btnCheckout input{
+    background-color: #2196f3;
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    
+}
+.btnCheckout input{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.btnCheckoutAlrt{
+    width: 400px;
+    height: 400px;
+    color: white;
+    background-color: white;
+    border-bottom: 3px #2196f3 solid;
+    position: fixed;
+    top: 25%;
+    left: 35%;
+    border-radius: 20px;
+    display: none;
+}
+.btnCheckoutAlrt .fsSuc{
+    height: 250px;
+    background-color: #2196f3;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: relative;
+}
+.fsSuc i{
+    color: #4df57f;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    font-size: 80px;
+
+}
+
+.successMessage{
+    padding: 10px 0;
+    text-align: center;
+    color: #2196f3;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.successMessage input {
+    padding: 5px 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white;
+    color:white;
+    background-color: #2196f3;
+    border: #2196f3 3px solid;
+    cursor: pointer;
+}
+
+
+
+
+/* -------------------------wrong */
+.btnCheckoutAlrtwrong{
+    width: 400px;
+    height: 400px;
+    color: white;
+    background-color: white;
+    border-bottom: 3px red solid;
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    border-radius: 20px;
+    display: none;
+}
+.btnCheckoutAlrtwrong .fswrong{
+    height: 250px;
+    background-color: red;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: relative;
+}
+.fswrong i{
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    font-size: 80px;
+
+}
+
+.wrongmessage{
+    padding: 10px 0;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.wrongmessage input {
+    padding: 5px 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white;
+    color:white;
+    background-color: red;
+    border: red 3px solid;
+    cursor: pointer;
+}
